@@ -1,4 +1,4 @@
-class HelloWorld        
+class HelloWorld        //定义一个类
 {
 	public static void main(String[] args)
 	{
