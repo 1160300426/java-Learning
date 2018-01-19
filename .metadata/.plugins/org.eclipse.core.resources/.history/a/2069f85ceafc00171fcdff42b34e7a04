@@ -1,0 +1,35 @@
+package JavaObjectOriented;
+class Person {
+	private String name;
+	private int age;
+	private char sex = '男';
+	void setName(String name){
+		if(name == null || name.isEmpty()){
+			System.out.println("姓名不合法");
+			return;
+		}
+		this.name = name;
+	}
+	void setAge(int age){
+		if(age < 0 || age > 100){
+			System.out.println("年龄不合法，请重新设置");
+			return;
+		}
+		this.age = age;
+	}
+	void setSex(char sex){
+		if(sex == '男' || sex == '女'){
+			this.sex = sex;
+		}
+		else
+			System.out.println("性别不合法，请重新设置");
+	}
+}
+public class PrivateObject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

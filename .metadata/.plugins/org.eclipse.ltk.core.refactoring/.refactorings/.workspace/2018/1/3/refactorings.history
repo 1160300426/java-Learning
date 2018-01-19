@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;JavaObjectOriented&apos;" deleteContents="false" description="Delete resource &apos;JavaObjectOriented&apos;" element1="/JavaObjectOriented" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1516339564856"/>
+</session>
