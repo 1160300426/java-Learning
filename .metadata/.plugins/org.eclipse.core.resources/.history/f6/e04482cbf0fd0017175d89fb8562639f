@@ -1,0 +1,15 @@
+/*将框架的布局管理器设置为卡片布局管理器，创建一个面板、一个按钮、
+ * 一个文本框放入其中，然后交替显示这三个组件.*/
+package javaLayout;
+import java.awt.*;
+import javax.swing.*;
+class CardLayoutDemo {
+	
+}
+public class JavaCardLayout {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
