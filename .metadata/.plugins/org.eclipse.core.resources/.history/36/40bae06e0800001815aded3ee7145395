@@ -1,0 +1,16 @@
+package javaIO;
+import java.io.*;
+public class JavaIOFile1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File folder = new File("D:\\test");     //创建一个File对象，代表一个目录.
+		System.out.println("目录下的文件和子目录有：");
+		String[] fileName = folder.list();    //获得目录下所有的文件和子目录名称.
+		for (int i = 0;i < fileName.length;i++) {
+			System.out.println(fileName[i]);
+		}
+		//File file = new 
+		
+	}
+
+}
