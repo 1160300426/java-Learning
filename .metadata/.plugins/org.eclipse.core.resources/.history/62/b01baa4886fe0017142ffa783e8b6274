@@ -1,0 +1,13 @@
+/*在用户关闭窗口时退出程序*/
+package javaEvent;
+import javax.swing.*;
+import java.awt.event.*;
+class QuitWindow2
+public class JavaWindowEventEdition2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

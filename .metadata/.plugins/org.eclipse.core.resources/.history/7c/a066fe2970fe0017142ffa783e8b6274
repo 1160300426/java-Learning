@@ -1,0 +1,25 @@
+package javaEvent;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+abstract class EventDemo implements ActionListener {
+	JFrame frame;
+	JButton button;
+	EventDemo(String title) {
+		frame = new JFrame(title);
+		frame.setSize(260,150);
+		frame.setLayout(new FlowLayout());
+		button = new JButton("确定");
+		frame.add(button);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+}
+public class JavaActionEventEdition1 {           //实现Action
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

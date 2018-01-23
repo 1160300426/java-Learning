@@ -1,0 +1,25 @@
+package javaEvent;
+import javax.swing.*;
+import java.awt.event.*;
+class QuitWindow implements WindowListener {
+	public void WindowClosing(WindowEvent e) {
+		System.exit(0);
+	}
+	public void windowOpened(WindowEvent e) {}
+	public void windowClosed(WindowEvent e) {}
+	public void windowIconified(WindowEvent e) {}
+	public void windowDeiconified(WindowEvent e) {}
+	public void windowActivated(WindowEvent e) {}
+	public void windowDeactivated(WindowEvent e) {}
+}
+public class JavaWindowEventEdition1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame frame;
+		frame = new JFrame();
+		frame.setSize(300,200);
+		frame.setVisible(true);
+		frame.addWindowListener(new QuitWindow()); //´°¿Ú×¢²áÊÂ¼þ.
+	}
+
+}

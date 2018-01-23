@@ -1,0 +1,12 @@
+/*实现JavaActionEventEdition1中的功能，要求另外定义一个类做监听器类*/
+package javaEvent;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+public class JavaActionEventEdition2 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
