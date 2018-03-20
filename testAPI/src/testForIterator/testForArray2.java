@@ -15,10 +15,11 @@ public class testForArray2 {
 		list.add(4);
 		list.add(6);
 		list.add(8);
+		list.add(9);
 		list.add(10);
 		
 		/*
-		 * 输出[6,8,10]与预期不同.
+		 * 输出[4,6,8,9,10]与预期不同.
 		 * */
 		for (Integer integer : list) {
 			if (integer %2 == 0) {
