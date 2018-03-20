@@ -14,10 +14,10 @@ public class testForArray {
 		list.add(8);
 		list.add(10);
 		for (Integer integer : list) {
-			//迭代器移除会报错.
-//			if (integer % 2 == 0) {
-//				list.remove(integer);
-//			}
+			//这段代码错误. 迭代器移除会报错.
+			if (integer % 2 == 0) {
+				list.remove(integer);
+			}
 		}
 		System.out.println(list);
 	}
