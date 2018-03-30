@@ -10,5 +10,4 @@ public class testToLowerCase {
 		System.out.println("源字符串:" + s1);
 		System.out.println("转变后:" + s2);
 	}
-
 }
