@@ -18,6 +18,8 @@ public class EatFruit<L extends Fruit> {
 //		ParameterizedType parameterizedType = (ParameterizedType) this.getClass().getGenericSuperclass();
 //		parameterizedType.getActualTypeArguments();
 //		System.out.println(parameterizedType.getActualTypeArguments());
+		//³É¹¦
+		System.out.println(fruit.getClass().getName());
 		return true;
 	}
 	
