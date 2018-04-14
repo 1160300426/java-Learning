@@ -20,6 +20,7 @@ public class EatFruit<L extends Fruit> {
 //		System.out.println(parameterizedType.getActualTypeArguments());
 		//³É¹¦
 		System.out.println(fruit.getClass().getName());
+		System.out.println(list.get(0).getClass().getName().toString());
 		return true;
 	}
 	
