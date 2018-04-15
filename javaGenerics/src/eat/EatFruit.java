@@ -5,6 +5,7 @@ import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;
 import java.util.List;
 
+import extendClass.Apple;
 import extendClass.Fruit;
 
 public class EatFruit<L extends Fruit> {
@@ -22,6 +23,7 @@ public class EatFruit<L extends Fruit> {
 		System.out.println(fruit.getClass().getName());
 		System.out.println(list.get(0).getClass().getName().toString());
 		return true;
+		
 	}
 	
 }
