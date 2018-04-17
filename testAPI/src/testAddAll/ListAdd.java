@@ -9,7 +9,7 @@ public class ListAdd {
 		// TODO Auto-generated method stub
 		List<String> list = new ArrayList<>();
 		for (int i = 0; i < 100; i++) {
-			list.add(i + "\n");
+			list.add(i + " ");
 		}
 		List<String> list2 = new ArrayList<>();
 		list2.add("a");
