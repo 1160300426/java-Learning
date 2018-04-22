@@ -48,5 +48,38 @@ public class RegExpFirstLearn {
 		while (m3.find()) {
 			System.out.println("Found value3: " + m3.group(1));
 		}
+		
+		String string4 = "Edge = <\"SRFD\", \"MovieDirectorRelation\", \"-1\",  \"TheShawshankRedemption\", \"FrankDarabont\", \"No\"> ";
+		String pattern4 = "<\"([a-zA-Z0-9]+)\",\\s+\"([a-zA-Z]+)\",\\s+\"([0-9.-]+)\",\\s+\"([a-zA-Z0-9]+)\",\\s+\"([a-zA-Z0-9]+)\",\\s+\"([a-zA-Z]+)\">";
+		
+		System.out.println("String4:" + string4);
+		Pattern r4 = Pattern.compile(pattern4);
+		Matcher m4 = r4.matcher(string4);
+		if (m4.find()) {
+			System.out.println("Found value: " + m4.group(0));
+	        System.out.println("Found value: " + m4.group(1));
+	        System.out.println("Found value: " + m4.group(2));
+	        System.out.println("Found value: " + m4.group(3)); 
+	        System.out.println("Found value: " + m4.group(4));
+	        System.out.println("Found value: " + m4.group(5));
+	        System.out.println("Found value: " + m4.group(6)); 
+		} else {
+			System.out.println("NO MATCH");
+		}
+		
+		String string5 = "HyperEdge = <\"ActorsInSR\", \"SameMovieHyperEdge\", {\"TimRobbins\", \"MorganFreeman\"}> ";
+		String pattern5 = "<\"([a-zA-Z0-9]+)\",\\s+\"([a-zA-Z0-9]+)\",\\s+\\{([a-zA-Z0-9\", ]+)\\}>";
+		
+		System.out.println(pattern5);
+		Pattern r5 = Pattern.compile(pattern5);
+		Matcher m5 = r5.matcher(string5);
+		if (m5.find()) {
+			System.out.println("Found value: " + m5.group(0));
+	        System.out.println("Found value: " + m5.group(1));
+	        System.out.println("Found value: " + m5.group(2));
+	        System.out.println("Found value: " + m5.group(3)); 
+		}
+		
+//		String string6 = ""
 	}
 }
