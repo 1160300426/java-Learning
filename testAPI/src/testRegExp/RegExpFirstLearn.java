@@ -5,9 +5,18 @@ import java.util.regex.Pattern;
 
 public class RegExpFirstLearn {
 	public static void main(String[] args) {
+		String string0 = "ABCD";
+		String pattern0 = "([a-zA-Z]+)";
+		
+		Pattern r0 = Pattern.compile(pattern0);
+		Matcher m0 = r0.matcher(string0);
+		if (m0.find()) {
+			System.out.println("Found : " + m0.group(1));
+		}
+		
 		// TODO Auto-generated method stub
-		String string = "Vertex = <\"Server1\", \"Server\", <\"192.168.1.2\">> ";
-		String pattern = "\"([a-zA-Z0-9]+)\",\\s+\"([a-zA-Z0-9]+)\", <\"([a-zA-Z0-9.]+)\">";
+		String string = "Vertex = <\"Server1\",    \"Server\", <\"192.168.1.2\">> ";
+		String pattern = "\"([a-zA-Z0-9]+)\",\\s*\"([a-zA-Z0-9]+)\",\\s*<\"([a-zA-Z0-9.]+)\">";
 		
 		Pattern r = Pattern.compile(pattern);
 		Matcher m = r.matcher(string);
