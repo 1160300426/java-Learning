@@ -89,6 +89,26 @@ public class RegExpFirstLearn {
 	        System.out.println("Found value: " + m5.group(3)); 
 		}
 		
-//		String string6 = ""
+		String string6 = "HyperEdge = <\"ActorsInSR\", \"SameMovieHyperEdge\", {\"TimRobbins\", \"MorganFreeman\"}>";
+		String pattern6 = "([a-zA-Z0-9]+)";
+		
+		Pattern r6 = Pattern.compile(pattern6);
+		Matcher m6 = r6.matcher(string6);
+		if (m6.find()) {
+			System.out.println(m6.group(1));
+		}
+		
+		String pattern6_1 = "([a-zA-Z]+)";
+		Pattern r6_1 = Pattern.compile(pattern6_1);
+		Matcher m6_1 = r6_1.matcher(string6);
+		if (m6_1.find()) {
+			System.out.println(m6_1.group(1));
+		}
+		
+		Pattern r6_2 = Pattern.compile(pattern6_1);
+		Matcher m6_2 = r6_2.matcher(string6);
+		if (m6_2.find()) {
+			System.out.println(m6_2.group(1));
+		}
 	}
 }
