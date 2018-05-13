@@ -10,6 +10,7 @@ public class testScannerInput {
 	    while(true) {  
 	        String lin = s.nextLine();  
 	        if(lin.equals("exit")) break;  
+	        exce.throwException();
 	        System.out.println(">>>" + lin);  
 	    }
 	    s.close();  
