@@ -1,1 +1,3 @@
-INFO:²âÊÔ
+Time: 2018-05-17 21:41:16	Type: .	ClassName: testJavaLog.testLogger	MethodName: main	Information: ²âÊÔ	Consequence: ,,
+Time: 2018-05-17 21:41:17	Type: ...	ClassName: testJavaLog.testLogger	MethodName: main	Information: heiÄãµ±¹ý±øµÄ	Consequence: ,,,,,
+Time: 2018-05-17 21:41:17	Type: ....	ClassName: testJavaLog.testLogger	MethodName: F	Information: ²âÊÔdccdfd	Consequence: ,,,,,,,
