@@ -1,6 +1,7 @@
 package testAddAll;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ListAdd {
@@ -15,5 +16,12 @@ public class ListAdd {
 		list2.add("a");
 		list2.addAll(list);
 		System.out.println(list2);
+		
+		list = Arrays.asList("yello", "bobby", "alice", "aaa");
+		System.out.println("list:" + list);
+		list2.clear();
+		list2.add("hey");
+		list2.addAll(list);
+		System.out.println("list2:" + list2);
 	}
 }
